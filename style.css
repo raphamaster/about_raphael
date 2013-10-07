@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	/*color: #fff;*/
+	font-family: Tahoma, helvetica, arial, sans-serif;
+}
+
+header {
+	visibility: hidden;
+}
+
+.sobre p{
+    padding: 20px 0px 0px;
+    border-top: 1px solid rgba(204, 204, 204, 0.1);
+    color: rgb(102, 102, 102);
+    line-height: 20px;
+    text-align: center;
+}
+
+.photo_rapha {
+    position: relative;
+    margin: 0px auto;
+    overflow: hidden;
+    width: 118px;
+    height: 118px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+h3 {
+    padding: 6px 6px 19px;
+    margin: 0px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+    font-family: Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#page {
+	left: 50%;
+	height: 300px;
+	margin: -150px 0 0 -360px;
+	position: absolute;
+	top: 30%;
+	width: 720px;
+}
+
+.summary {
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+
+.additional, .additional * {
+	color: #8c9198;
+	font-size: 18px;
+}
+
+.summary, .additional {
+	text-shadow: 1px 1px #111;
+}
+
+.additional {
+	margin: 10px 0;
+}
+
+strong {
+	color: #fff000;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	margin-right: 10px;
+}
+
+li a {
+	background: transparent no-repeat;
+	display: block;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 16px;
+}
+
+.rubygems a { background-image: url(images/rubygems.png); }
+.delicious a { background-image: url(images/delicious.png); }
+.feedburner a { background-image: url(images/feed.png); }
+.friendfeed a { background-image: url(images/friendfeed.png); }
+.email a { background-image: url(images/email.png); }
+.gtalk a { background-image: url(images/gtalk.png); }
+.lastfm a { background-image: url(images/lastfm.png); }
+.twitter a { background-image: url(images/twitter.png); }
+.youtube a { background-image: url(images/youtube.png); }
+.github a { background-image: url(images/github.png); }
+.skype a { background-image: url(images/skype.png); }
+.slideshare a { background-image: url(images/slideshare.png); }
+.forrst a { background-image: url(images/forrst.png); }
